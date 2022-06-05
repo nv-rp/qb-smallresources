@@ -48,51 +48,51 @@ Config.BlacklistedScenarios = {
 }
 
 Config.BlacklistedVehs = {
-    [`SHAMAL`] = true,
-    [`LUXOR`] = true,
-    [`LUXOR2`] = true,
-    [`JET`] = true,
-    [`LAZER`] = true,
-    [`BUZZARD`] = true,
-    [`BUZZARD2`] = true,
-    [`ANNIHILATOR`] = true,
-    [`SAVAGE`] = true,
-    [`TITAN`] = true,
-    [`RHINO`] = true,
-    [`FIRETRUK`] = true,
-    [`MULE`] = true,
-    [`MAVERICK`] = true,
-    [`BLIMP`] = true,
-    [`AIRTUG`] = true,
-    [`CAMPER`] = true,
-    [`HYDRA`] = true,
-    [`OPPRESSOR`] = true,
-    [`technical3`] = true,
-    [`insurgent3`] = true,
-    [`apc`] = true,
-    [`tampa3`] = true,
-    [`trailersmall2`] = true,
-    [`halftrack`] = true,
-    [`hunter`] = true,
-    [`vigilante`] = true,
-    [`akula`] = true,
-    [`barrage`] = true,
-    [`khanjali`] = true,
-    [`caracara`] = true,
-    [`blimp3`] = true,
-    [`menacer`] = true,
-    [`oppressor2`] = true,
-    [`scramjet`] = true,
-    [`strikeforce`] = true,
-    [`cerberus`] = true,
-    [`cerberus2`] = true,
-    [`cerberus3`] = true,
-    [`scarab`] = true,
-    [`scarab2`] = true,
-    [`scarab3`] = true,
-    [`rrocket`] = true,
-    [`ruiner2`] = true,
-    [`deluxo`] = true,
+    -- [`SHAMAL`] = true,
+    -- [`LUXOR`] = true,
+    -- [`LUXOR2`] = true,
+    -- [`JET`] = true,
+    -- [`LAZER`] = true,
+    -- [`BUZZARD`] = true,
+    -- [`BUZZARD2`] = true,
+    -- [`ANNIHILATOR`] = true,
+    -- [`SAVAGE`] = true,
+    -- [`TITAN`] = true,
+    -- [`RHINO`] = true,
+    -- [`FIRETRUK`] = true,
+    -- [`MULE`] = true,
+    -- [`MAVERICK`] = true,
+    -- [`BLIMP`] = true,
+    -- [`AIRTUG`] = true,
+    -- [`CAMPER`] = true,
+    -- [`HYDRA`] = true,
+    -- [`OPPRESSOR`] = true,
+    -- [`technical3`] = true,
+    -- [`insurgent3`] = true,
+    -- [`apc`] = true,
+    -- [`tampa3`] = true,
+    -- [`trailersmall2`] = true,
+    -- [`halftrack`] = true,
+    -- [`hunter`] = true,
+    -- [`vigilante`] = true,
+    -- [`akula`] = true,
+    -- [`barrage`] = true,
+    -- [`khanjali`] = true,
+    -- [`caracara`] = true,
+    -- [`blimp3`] = true,
+    -- [`menacer`] = true,
+    -- [`oppressor2`] = true,
+    -- [`scramjet`] = true,
+    -- [`strikeforce`] = true,
+    -- [`cerberus`] = true,
+    -- [`cerberus2`] = true,
+    -- [`cerberus3`] = true,
+    -- [`scarab`] = true,
+    -- [`scarab2`] = true,
+    -- [`scarab3`] = true,
+    -- [`rrocket`] = true,
+    -- [`ruiner2`] = true,
+    -- [`deluxo`] = true,
 }
 
 Config.BlacklistedPeds = {
@@ -110,12 +110,12 @@ Config.Teleports = {
         [1] = {
             coords = vector4(3540.74, 3675.59, 20.99, 167.5),
             ["AllowVehicle"] = false,
-            drawText = '[E] Take Elevator Up'
+            drawText = '[E] Neem de lift naar boven'
         },
         [2] = {
             coords = vector4(3540.74, 3675.59, 28.11, 172.5),
             ["AllowVehicle"] = false,
-            drawText = '[E] Take Elevator Down'
+            drawText = '[E] Neem de lift naar beneden'
         },
 
     },
@@ -124,35 +124,35 @@ Config.Teleports = {
         [1] = {
             coords = vector4(909.49, -1589.22, 30.51, 92.24),
             ["AllowVehicle"] = false,
-            drawText = '[E] Enter Coke Processing'
+            drawText = '[E] Ga lab binnen'
         },
         [2] = {
             coords = vector4(1088.81, -3187.57, -38.99, 181.7),
             ["AllowVehicle"] = false,
-            drawText = '[E] Leave'
+            drawText = '[E] Verlaat'
         },
     },
 }
 
 Config.CarWash = { -- carwash
     [1] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "N-Wash",
         ["coords"] = vector3(25.29, -1391.96, 29.33),
     },
     [2] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "N-Wash",
         ["coords"] = vector3(174.18, -1736.66, 29.35),
     },
     [3] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "N-Wash",
         ["coords"] = vector3(-74.56, 6427.87, 31.44),
     },
     [5] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "N-Wash",
         ["coords"] = vector3(1363.22, 3592.7, 34.92),
     },
     [6] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "N-Wash",
         ["coords"] = vector3(-699.62, -932.7, 19.01),
     }
 }
